@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/DashboardUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-lake-master-service/src/main/java/com/yogo/datalakemasterservice/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/src/main/java/com/yogo/analyticsdashboard/AnalyticsDashboardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/src/main/java/com/yogo/analyticsdashboard/AnalyticsDashboardApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics-dashboard/src/test/java/com/yogo/analyticsdashboard/AnalyticsDashboardApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics-dashboard/src/test/java/com/yogo/analyticsdashboard/AnalyticsDashboardApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/src/main/java/com/yogo/analytics/AnalyticsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/src/main/java/com/yogo/analytics/AnalyticsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/src/main/java/com/yogo/analytics/config/ApplicationConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analytics/src/test/java/com/yogo/analytics/AnalyticsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../analytics/src/test/java/com/yogo/analytics/AnalyticsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/src/main/java/com/yogo/datalakemasterservice/DataLakeMasterServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/src/main/java/com/yogo/datalakemasterservice/DataLakeMasterServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../data-lake-master-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-lake-master-service/src/test/java/com/yogo/datalakemasterservice/DataLakeMasterServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/src/main/java/com/yogo/descriptiveanalyticsservice/DescriptiveAnalyticsServiceApplication.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/src/main/java/com/yogo/descriptiveanalyticsservice/DescriptiveAnalyticsServiceApplication.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/src/main/java/com/yogo/descriptiveanalyticsservice/controler/HomeControler.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/src/main/java/com/yogo/descriptiveanalyticsservice/controler/HomeControler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../descriptive-analytics-service/src/test/java/com/yogo/descriptiveanalyticsservice/DescriptiveAnalyticsServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../descriptive-analytics-service/src/test/java/com/yogo/descriptiveanalyticsservice/DescriptiveAnalyticsServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/src/main/java/com/yogo/eurekaservice/EurekaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/src/main/java/com/yogo/eurekaservice/EurekaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-service/src/test/java/com/yogo/eurekaservice/EurekaServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-service/src/test/java/com/yogo/eurekaservice/EurekaServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/src/main/java/com/yogo/javafxdatautil/JavafxDataUtilApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/src/main/java/com/yogo/javafxdatautil/JavafxDataUtilApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javafx-data-util/src/test/java/com/yogo/javafxdatautil/JavafxDataUtilApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javafx-data-util/src/test/java/com/yogo/javafxdatautil/JavafxDataUtilApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/OrdersTransactionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/OrdersTransactionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/controler/CustomerControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/controler/OrderControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/controler/OrderItemControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/domain/CustomerOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/domain/CustomerOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/domain/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/repo/CustomerOrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/repo/CustomerOrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/repo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/repo/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/repo/OrderItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/repo/OrderItemRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/java/com/yogo/orderstransactionservice/resource/CustomerResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orders-transaction-service/src/test/java/com/yogo/orderstransactionservice/OrdersTransactionServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../orders-transaction-service/src/test/java/com/yogo/orderstransactionservice/OrdersTransactionServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/SellersProductsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/SellersProductsServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/controler/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/controler/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/controler/ProductTranControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/controler/ProductTranControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/controler/SellerControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/controler/SellerControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/domain/ProductTranslation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/domain/ProductTranslation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/domain/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/domain/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/repo/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/repo/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/repo/ProductTranslationRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/repo/ProductTranslationRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/repo/SellersRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/java/com/yogo/sellersproductsservice/repo/SellersRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/test/java/com/yogo/sellersproductsservice/SellerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sellers-products-service/src/test/java/com/yogo/sellersproductsservice/SellerProductsServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sellers-products-service/src/test/java/com/yogo/sellersproductsservice/SellerProductsServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/SpringBoot/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/product/ProductControler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3158">
+              <caret line="125" column="43" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ResentProductItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductStatistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductCounts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2241">
+              <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/main.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/product/product.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/analytics/domain/CustomerValue.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/customer/customerdashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/customer/CustomerUIService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/customer/CustomerUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/contoler/customer/CustomerDashboardControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/CustomerAnalytics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/product/ProductUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/contoler/customer/controler/product/ProductControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/controler/product/ProductControler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/product/product.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/analytics/domain/products/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/util/LongStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/analytics/domain/products/ProductCounts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/analytics/domain/products/ProductStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/ui/CreateScenes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/main/MainControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/component/ComponentUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/ui/product/ProductUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/SpringMain.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/SpringBootMain.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/com/SpringBootMain.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/com/yogo/boot/SpringBootMain.scala" />
+        <option value="$PROJECT_DIR$/SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/analytics/domain/products/CatergoryValue.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/ui/dashboard/DashboardUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/dashboard/DashboardControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/util/ExecutorPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ResentProductItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/product/ProductControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DashboardUI" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_199.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_11_3_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_test_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_test_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_7_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_2_2_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
+    <option name="y" value="27" />
+    <option name="width" value="1336" />
+    <option name="height" value="697" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="controler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="controler" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yogo/analytics/domain/products" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/fxml/customer" />
+      <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yogo.analytics.domain.products" />
+      <recent name="com.yogo.analytics.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/yogo/analytics/domain/products" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/yogo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.main">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.yogo.Main" />
+      <module name="DashboardUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DashboardUI" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yogo.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="Spring Boot.Main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1562584756460" duration="446000" />
+      <workItem from="1562585286018" duration="926000" />
+      <workItem from="1562605780566" duration="6836000" />
+      <workItem from="1562675213754" duration="4325000" />
+      <workItem from="1562745049337" duration="3955000" />
+      <workItem from="1563349708259" duration="10000" />
+      <workItem from="1563350519858" duration="29000" />
+      <workItem from="1563609153331" duration="6161000" />
+      <workItem from="1563616896233" duration="845000" />
+      <workItem from="1563635054565" duration="18524000" />
+      <workItem from="1563694668745" duration="24268000" />
+      <workItem from="1563777847338" duration="8325000" />
+      <workItem from="1563789212814" duration="2073000" />
+      <workItem from="1563792858647" duration="298000" />
+      <workItem from="1563793386672" duration="9880000" />
+      <workItem from="1563838815671" duration="1267000" />
+      <workItem from="1563844908247" duration="12574000" />
+      <workItem from="1563866738696" duration="1818000" />
+      <workItem from="1563870119988" duration="10718000" />
+      <workItem from="1563882565280" duration="8656000" />
+      <workItem from="1564105144830" duration="613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123849000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18712121" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.79037267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35559008" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.38354036" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="bottom" id="Spring" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32954547" />
+      <window_info anchor="right" id="Mongo Explorer" order="11" weight="0.32954547" />
+      <window_info anchor="right" id="Jms Messenger" order="12" weight="0.32954547" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yogo/Main.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/customer/customerdashboard.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="275" selection-start-line="17" selection-start-column="275" selection-end-line="17" selection-end-column="275" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerDashboardControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/controler/product/ProductControler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/product/ProductControler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/DoubleStats.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/LongStatistics.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/ui/CreateScenes.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/main/MainControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/ui/product/ProductUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/SpringMain.java" />
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/com/yogo/boot/SpringBootMain.scala" />
+    <entry file="file://$PROJECT_DIR$/SpringBoot/pom.xml" />
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/ext/jfxrt.jar!/javafx/concurrent/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="394" column="16" selection-start-line="394" selection-start-column="16" selection-end-line="394" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/CatergoryValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/component/ComponentUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/ui/customer/CustomerUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/ExecutorPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/ui/dashboard/DashboardUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/dashboard/DashboardControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/dashboard.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/product/ProductControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ResentProductItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductCounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/product/product.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3158">
+          <caret line="125" column="43" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DashboardUI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
