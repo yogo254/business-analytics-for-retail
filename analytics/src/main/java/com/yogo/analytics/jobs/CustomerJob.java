@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.yogo.analytics.analytics.customer.CustomerAnalytics;
 import com.yogo.analytics.analytics.customer.CustomerCounts;
+import com.yogo.analytics.analytics.customer.CustomerStatistics;
 import com.yogo.analytics.analytics.customer.CustomerValue;
 import com.yogo.analytics.entity.OrderTransaction;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,16 +24,9 @@ public class CustomerJob implements Runnable {
     private CustomerAnalytics customerAnalytics;
     @Override
     public void run() {
-        List<CustomerValue> customerValues=customerAnalytics.getCustomerValues(transactionList);
-        List<CustomerCounts>customerCounts=customerAnalytics.getCount(transactionList);
+        CustomerStatistics statistics=customerAnalytics.analyse(transactionList);
+        template.send("customers",getJsonString(statistics));
 
-       /* template.send("customervalue",getJsonString(customerValues));
-        template.send("customercount",getJsonString(customerCounts));*/
-
-        customerCounts.stream()
-                .forEach(System.out::println);
-        customerValues.stream()
-                .forEach(System.out::println);
 
 
     }

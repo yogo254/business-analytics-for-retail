@@ -1,9 +1,6 @@
 package com.yogo.analytics.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.yogo.analytics.analytics.product.ProductAnalytics;
-import com.yogo.analytics.analytics.product.ProductCounts;
-import com.yogo.analytics.analytics.product.ProductStatistics;
 import com.yogo.analytics.entity.OrderTransaction;
 import com.yogo.analytics.jobs.CustomerJob;
 import com.yogo.analytics.jobs.ProductsJobs;
@@ -25,12 +22,16 @@ private ExecutorService executorService;
 private  ObjectMapper mapper;
 @Autowired
 private ProductsJobs productsJobs;
+@Autowired
+private CustomerJob customerJob;
 @KafkaListener(topics = "orders")
 public void streamingOrders(String orders){
     List<OrderTransaction>transactions=getTransaction(orders);
     productsJobs.setOrderTransactions(transactions);
     executorService.submit(productsJobs);
 
+    customerJob.setTransactionList(transactions);
+    executorService.submit(customerJob);
 
 
     }

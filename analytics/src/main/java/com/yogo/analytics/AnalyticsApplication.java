@@ -27,9 +27,8 @@ private AdminClient admin;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        admin.createTopics(Arrays.asList(new NewTopic("customervalue",1, (short) 1),
-                new NewTopic("customercount",1, (short) 1)
-                ,new NewTopic("products",1, (short) 1)));
+        admin.createTopics(Arrays.asList(new NewTopic("customers",1, (short) 1),
+                new NewTopic("products",1, (short) 1)));
 
 
 

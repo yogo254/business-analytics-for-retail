@@ -1,15 +1,18 @@
 package com.yogo.domain.customer;
 
+
+import com.yogo.util.DoubleStats;
+
 public class CustomerValue {
     private String customerId;
-    private double value;
+    private DoubleStats stats;
 
     public CustomerValue() {
     }
 
-    public CustomerValue(String customerId, double value) {
+    public CustomerValue(String customerId, DoubleStats stats) {
         this.customerId = customerId;
-        this.value = value;
+        this.stats = stats;
     }
 
     public String getCustomerId() {
@@ -20,11 +23,11 @@ public class CustomerValue {
         this.customerId = customerId;
     }
 
-    public double getValue() {
-        return value;
+    public DoubleStats getStats() {
+        return stats;
     }
 
-    public void setValue(double value) {
-        this.value = value;
+    public void setStats(DoubleStats stats) {
+        this.stats = stats;
     }
 }

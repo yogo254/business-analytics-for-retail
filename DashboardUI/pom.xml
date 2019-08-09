@@ -39,6 +39,12 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
         </dependency>
+        <dependency>
+            <groupId>eu.hansolo</groupId>
+            <artifactId>tilesfx</artifactId>
+            <version>11.2</version>
+            <type>pom</type>
+        </dependency>
 
 
         <dependency>

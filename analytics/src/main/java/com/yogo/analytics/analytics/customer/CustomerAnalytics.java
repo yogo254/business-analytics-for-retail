@@ -17,7 +17,7 @@ public class CustomerAnalytics {
     private final List<CustomerValues> previousCustomers=new ArrayList<>();
 
 
-public List<CustomerValue> getTopCustomers(){
+private List<CustomerValue> getTopCustomers(){
    return previousCustomers.stream()
            .sorted(Comparator.comparing(CustomerValues::getValue))
            .limit(5)
@@ -29,14 +29,14 @@ public List<CustomerValue> getTopCustomers(){
 
 
 }
-public DoubleStats getStatistcs(){
+private DoubleStats getStatistcs(){
     DoubleSummaryStatistics statistics= previousCustomers
             .stream()
             .collect(Collectors.summarizingDouble(CustomerValues::getValue));
     return new DoubleStats(statistics);
 
 }
-public CustomerCounts resentCustomers(){
+private CustomerCounts resentCustomers(){
     List<String>resent=resentCustomers.stream()
             .map(CustomerValues::getCustomerId)
             .collect(Collectors.toList());

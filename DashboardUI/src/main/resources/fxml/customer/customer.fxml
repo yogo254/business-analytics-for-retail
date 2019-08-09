@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.StackedAreaChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="726.0" prefWidth="1015.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="111.0" prefWidth="1015.0" />
+      <HBox prefHeight="160.0" prefWidth="1015.0">
+         <children>
+            <VBox fx:id="resentTablePane" prefHeight="258.0" prefWidth="513.0" spacing="5.0">
+               <children>
+                  <Label prefHeight="23.0" prefWidth="194.0" style="-fx-font-weight: bold;" text="Resent Customers">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="121.0" prefHeight="157.0" prefWidth="1015.0">
+         <children>
+            <VBox fx:id="resentTablePane1" prefHeight="258.0" prefWidth="513.0" spacing="5.0">
+               <children>
+                  <Label prefHeight="23.0" prefWidth="194.0" style="-fx-font-weight: bold;" text="Top Customers">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="297.0" prefWidth="1015.0">
+         <children>
+            <StackedAreaChart prefHeight="297.0" prefWidth="735.0">
+              <xAxis>
+                <NumberAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </StackedAreaChart>
+         </children>
+      </HBox>
+   </children>
+</VBox>
