@@ -27,7 +27,7 @@ private LinearRegressionModel monthBydayMonthModel;
         Dataset<Row> data=session.read()
                 .option("inferSchema",true)
                 .option("header",true)
-                .csv("saletimeseries.csv");
+                .csv("src/main/resources/dataset/saletimeseries.csv");
         List<LabeledPoint> dayByHour=data
                 .select("day_week","hour_day","price")
                 .groupBy("day_week","hour_day").mean("price")

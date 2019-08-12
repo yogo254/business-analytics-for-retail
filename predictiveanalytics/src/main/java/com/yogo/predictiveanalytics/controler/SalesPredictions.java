@@ -4,13 +4,11 @@ import com.yogo.predictiveanalytics.models.SalesForecast;
 import com.yogo.predictiveanalytics.models.caseclasses.FeaturesCase;
 import org.apache.spark.ml.feature.LabeledPoint;
 import org.apache.spark.ml.linalg.Vectors;
-import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 @RestController
@@ -21,47 +19,47 @@ public class SalesPredictions {
     @Autowired
     private SparkSession session;
 
-    @GetMapping("/dayhour")
-    public List<Double>predictByDayHour(@RequestBody List<FeaturesCase> featuresCases){
-        List<LabeledPoint>labeledPoints=featuresCases
-                .stream()
-                .map(e->new LabeledPoint(0.0, Vectors.dense(e.getF1(),e.getF2())))
-                .collect(Collectors.toList());
-        List<Row> predictions=salesForecast
+    @PostMapping("/dayhour")
+    public FeaturesCase predictByDayHour(@RequestBody FeaturesCase featuresCase){
+        List<LabeledPoint>labeledPoints=new ArrayList<>();
+        labeledPoints.add(new LabeledPoint(0.0,Vectors.dense(featuresCase.getF1(),featuresCase.getF2())));
+        List<Double> predictions=salesForecast
                 .predictMeanSalesBy_dayWeek_Hour(session.createDataFrame(labeledPoints,LabeledPoint.class))
                 .select("prediction")
-                .collectAsList();
-        return predictions.stream()
-                .map(e->e.getDouble(0))
+                .collectAsList()
+                .stream().map(e->e.getDouble(0))
                 .collect(Collectors.toList());
+        featuresCase.setPrediction(predictions.get(0));
+
+        return featuresCase;
     }
-    @GetMapping("/daymonth/week")
-    public List<Double>predictBymonthDay_week(@RequestBody List<FeaturesCase> featuresCases){
-        List<LabeledPoint>labeledPoints=featuresCases
-                .stream()
-                .map(e->new LabeledPoint(0.0, Vectors.dense(e.getF1(),e.getF2())))
-                .collect(Collectors.toList());
-        List<Row> predictions=salesForecast
+    @PostMapping("/daymonth/week")
+    public FeaturesCase predictBymonthDay_week(@RequestBody FeaturesCase featuresCase){
+        List<LabeledPoint>labeledPoints=new ArrayList<>();
+        labeledPoints.add(new LabeledPoint(0.0,Vectors.dense(featuresCase.getF1(),featuresCase.getF2())));
+        List<Double> predictions=salesForecast
                 .predictMeanSalesBy_month_dayWeek(session.createDataFrame(labeledPoints,LabeledPoint.class))
                 .select("prediction")
-                .collectAsList();
-        return predictions.stream()
-                .map(e->e.getDouble(0))
+                .collectAsList()
+                .stream().map(e->e.getDouble(0))
                 .collect(Collectors.toList());
+        featuresCase.setPrediction(predictions.get(0));
+
+        return featuresCase;
     }
-    @GetMapping("/month/monthweek")
-    public List<Double>predictmonth_MonthDay(@RequestBody List<FeaturesCase> featuresCases){
-        List<LabeledPoint>labeledPoints=featuresCases
-                .stream()
-                .map(e->new LabeledPoint(0.0, Vectors.dense(e.getF1(),e.getF2())))
-                .collect(Collectors.toList());
-        List<Row> predictions=salesForecast
+    @PostMapping("/month/monthweek")
+    public FeaturesCase predictmonth_MonthDay(@RequestBody FeaturesCase featuresCase){
+        List<LabeledPoint>labeledPoints=new ArrayList<>();
+        labeledPoints.add(new LabeledPoint(0.0,Vectors.dense(featuresCase.getF1(),featuresCase.getF2())));
+        List<Double> predictions=salesForecast
                 .predictMeanSalesBy_month_dayMonth(session.createDataFrame(labeledPoints,LabeledPoint.class))
                 .select("prediction")
-                .collectAsList();
-        return predictions.stream()
-                .map(e->e.getDouble(0))
+                .collectAsList()
+                .stream().map(e->e.getDouble(0))
                 .collect(Collectors.toList());
+        featuresCase.setPrediction(predictions.get(0));
+
+        return featuresCase;
     }
 
 }

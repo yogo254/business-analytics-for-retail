@@ -1,6 +1,12 @@
 package com.yogo;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.yogo.domain.customer.CustomerRow;
 import com.yogo.domain.products.ResentProductItem;
+import com.yogo.service.analytics.customer.CustomerUI;
+import com.yogo.service.analytics.predictive.FeaturesCase;
+import com.yogo.service.analytics.predictive.SalesForeCastUI;
+import com.yogo.service.analytics.predictive.SalesForecast;
 import com.yogo.service.analytics.product.ProductAnalytics;
 import com.yogo.service.analytics.product.ProductUI;
 import com.yogo.service.ui.dashboard.DashboardUI;
@@ -11,6 +17,7 @@ import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Side;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.chart.*;
@@ -19,20 +26,24 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 @SpringBootApplication
 
 public class Main extends Application {
-    @Autowired
-    private ProductAnalytics productAnalytics;
+
     private static final String basepath="src/main/resources/fxml";
     private ExecutorService executorService= ExecutorPool.getExecutor();
     private static ConfigurableApplicationContext context;
@@ -42,9 +53,6 @@ public class Main extends Application {
         Service<ConfigurableApplicationContext>bootContext=createBootContext();
         bootContext.setOnSucceeded(e->{
             context=bootContext.getValue();
-            HBox box= (HBox) DashboardUI.getDashboard().lookup("#mainPane");
-            box.getChildren().remove(1);
-            box.getChildren().add(ProductUI.getProductScene());
             primaryStage.setScene(DashboardUI.getDashboard());
 
         });
@@ -58,7 +66,6 @@ public class Main extends Application {
             e.printStackTrace();
         }
         Scene scene=new Scene(parent,600,400);
-
         ProgressIndicator indicator= (ProgressIndicator) scene.lookup("#indicator");
         indicator.progressProperty().bind(bootContext.progressProperty());
 
@@ -71,6 +78,92 @@ public class Main extends Application {
 
 
     }
+    private static VBox createSalesForecastScene(){
+        Path path=Paths.get(basepath+"/predictive/salesforecast.fxml");
+        Parent parent = null;
+        try {
+            parent = FXMLLoader.load(path.toUri().toURL());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        VBox box= (VBox) parent.lookup("#dashboard");
+        VBox hourDay= (VBox) box.lookup("#hourday");
+        DatePicker datePicker= (DatePicker) hourDay.lookup("#datePicker");
+
+
+        datePicker.setShowWeekNumbers(true);
+        datePicker.valueProperty()
+                .addListener((observableValue, oldVal, newVal) -> {
+                    SalesForeCastUI.updateDayHour(newVal);
+
+                });
+
+        NumberAxis hourDayY=new NumberAxis();
+        hourDayY.setAutoRanging(true);
+        hourDayY.setLabel("Mean Sales");
+        NumberAxis hourDayX=new NumberAxis(0,23,1);
+        hourDayX.setLabel("Hour of Day");
+        StackedAreaChart hourDayChart=new StackedAreaChart(hourDayX,hourDayY);
+        hourDayChart.setAnimated(true);
+        hourDayChart.setTitle("Sales Forecast By Hour and Day of Week");
+        hourDayChart.setLegendSide(Side.BOTTOM);
+        hourDayChart.setLegendVisible(true);
+        hourDayChart.setMaxSize(950,230);
+        hourDayChart.getData().add(SalesForeCastUI.getHourDay());
+
+        hourDay.getChildren().add(1,hourDayChart);
+
+
+
+
+
+
+
+
+        return box;
+
+    }
+    private static VBox createCustomerScene(){
+        Path path=Paths.get(basepath+"/customer/customer.fxml");
+        Parent parent = null;
+        try {
+            parent = FXMLLoader.load(path.toUri().toURL());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        VBox box= (VBox) parent.lookup("#dashboard");
+        VBox topTablePane= (VBox) box.lookup("#topTablePane");
+        VBox resentTablePane= (VBox) box.lookup("#resentTablePane");
+
+        TableView topCustomers=createCustomerTable();
+        TableView resentCustomers=createCustomerTable();
+        topTablePane.getChildren().add(topCustomers);
+        resentTablePane.getChildren().add(resentCustomers);
+
+
+        return box;
+    }
+
+    private static TableView createCustomerTable() {
+        TableView topCustomers=new TableView();
+        TableColumn customerId=new TableColumn("Customer ID");
+        customerId.setCellValueFactory(new PropertyValueFactory<CustomerRow,String>("customerId"));
+        TableColumn avarage=new TableColumn("Average");
+        avarage.setCellValueFactory(new PropertyValueFactory<CustomerRow,Double>("average"));
+        TableColumn sum=new TableColumn("Total Amount");
+        sum.setCellValueFactory(new PropertyValueFactory<CustomerRow,Double>("sum"));
+        TableColumn min=new TableColumn("Minimum Amount");
+        min.setCellValueFactory(new PropertyValueFactory<CustomerRow,Double>("min"));
+        TableColumn max=new TableColumn("Maximum Amount");
+        max.setCellValueFactory(new PropertyValueFactory<CustomerRow,Double>("max"));
+        TableColumn count =new TableColumn("Item Count");
+        count.setCellValueFactory(new PropertyValueFactory<CustomerRow,Long>("count"));
+
+        topCustomers.getColumns().addAll(customerId,count,min,max,avarage,sum);
+
+        return topCustomers;
+    }
+
     private  static VBox createProductPane(){
         Path path = Paths.get(basepath + "/product/product.fxml");
         Parent parent = null;
@@ -177,6 +270,8 @@ public class Main extends Application {
 
 
     public static void main(final String[] args) {
+        SalesForeCastUI.setSaleForecastScene(createSalesForecastScene());
+        CustomerUI.setCustomerScene(createCustomerScene());
         ProductUI.setProductScene(createProductPane());
         DashboardUI.setDashboard(createDashboardPane());
         launch(args);
@@ -197,18 +292,42 @@ public class Main extends Application {
         treeView.setRoot(analytics);
 
         TreeItem<String>descriptive=new TreeItem<>("Descriptive Analytics");
-        descriptive.getChildren().add(new TreeItem<>("Products"));
+        TreeItem<String>des_Product=new TreeItem<>("Products");
+        TreeItem<String>desc_customer=new TreeItem<>("Customers");
+
+        descriptive.getChildren().addAll(des_Product,desc_customer);
+
+
         TreeItem<String>predictive=new TreeItem<>("Predictive Analytics");
-        predictive.getChildren().add(new TreeItem<>("Products"));
+        TreeItem<String>salesForecast=new TreeItem<>("Sales Forecast");
+        predictive.getChildren().add(salesForecast);
 
         analytics.getChildren().addAll(descriptive,predictive);
+
+        treeView.getSelectionModel().selectedItemProperty()
+                .addListener((observableValue, oldVal, newVal) -> {
+                    if(newVal.equals(des_Product))
+                        DashboardUI.switchDashboard(ProductUI.getProductScene());
+                    else if (newVal.equals(desc_customer))
+                        DashboardUI.switchDashboard(CustomerUI.getCustomerScene());
+                    else if(newVal.equals(salesForecast))
+                        DashboardUI.switchDashboard(SalesForeCastUI.getSaleForecastScene());
+
+                });
 
 
 
         return scene;
 
     }
-
+    @Bean
+    public ObjectMapper getMapper(){
+        return new ObjectMapper();
+    }
+    @Bean
+    public RestTemplate getRestTemplate(){
+        return new RestTemplate();
+    }
     @Override
     public void stop() throws Exception {
         if(!context.equals(null))

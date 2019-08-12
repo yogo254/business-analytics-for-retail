@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="dashboard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="726.0" prefWidth="1015.0" spacing="10.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yogo.controler.product.ProductControler">
+   <children>
+      <HBox prefHeight="34.0" prefWidth="1200.0" style="-fx-background-color: #FFFFFF;" />
+      <HBox prefHeight="703.0" prefWidth="1200.0">
+         <children>
+            <VBox prefHeight="693.0" prefWidth="1015.0" spacing="10.0">
+               <children>
+                  <HBox fx:id="dayHour" prefHeight="214.0" prefWidth="1015.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
