@@ -12,11 +12,35 @@
          <children>
             <VBox prefHeight="693.0" prefWidth="1015.0" spacing="10.0">
                <children>
-                  <VBox fx:id="hourday" prefHeight="246.0" prefWidth="1015.0">
+                  <VBox fx:id="hourday" prefHeight="200.0" prefWidth="1015.0">
                      <children>
                         <HBox>
                            <children>
                               <DatePicker fx:id="datePicker" prefHeight="26.0" prefWidth="256.0" />
+                           </children>
+                           <padding>
+                              <Insets left="325.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dayMonthWeek" prefHeight="226.0" prefWidth="1015.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <DatePicker fx:id="datePicker1" prefHeight="26.0" prefWidth="256.0" />
+                           </children>
+                           <padding>
+                              <Insets left="325.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="monthMonthWeek" prefHeight="246.0" prefWidth="1015.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <DatePicker fx:id="datePicker2" prefHeight="26.0" prefWidth="256.0" />
                            </children>
                            <padding>
                               <Insets left="325.0" />

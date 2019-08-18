@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.chart.NumberAxis?>
-<?import javafx.scene.chart.StackedAreaChart?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -13,7 +11,7 @@
       <HBox prefHeight="111.0" prefWidth="1015.0" />
       <HBox prefHeight="160.0" prefWidth="1015.0">
          <children>
-            <VBox fx:id="resentTablePane" prefHeight="160.0" prefWidth="544.0" spacing="5.0">
+            <VBox fx:id="resentTablePane" prefHeight="160.0" prefWidth="676.0" spacing="5.0">
                <children>
                   <Label prefHeight="23.0" prefWidth="194.0" style="-fx-font-weight: bold;" text="Resent Customers">
                      <font>
@@ -32,7 +30,7 @@
       </HBox>
       <HBox layoutX="10.0" layoutY="121.0" prefHeight="157.0" prefWidth="1015.0">
          <children>
-            <VBox fx:id="topTablePane" prefHeight="157.0" prefWidth="596.0" spacing="5.0">
+            <VBox fx:id="topTablePane" prefHeight="157.0" prefWidth="677.0" spacing="5.0">
                <children>
                   <Label prefHeight="23.0" prefWidth="194.0" style="-fx-font-weight: bold;" text="Top Customers">
                      <font>
@@ -49,17 +47,6 @@
             </VBox>
          </children>
       </HBox>
-      <HBox prefHeight="297.0" prefWidth="1015.0">
-         <children>
-            <StackedAreaChart prefHeight="297.0" prefWidth="735.0">
-              <xAxis>
-                <NumberAxis side="BOTTOM" />
-              </xAxis>
-              <yAxis>
-                <NumberAxis side="LEFT" />
-              </yAxis>
-            </StackedAreaChart>
-         </children>
-      </HBox>
+      <HBox fx:id="areaChartPane" prefHeight="297.0" prefWidth="1015.0" />
    </children>
 </VBox>

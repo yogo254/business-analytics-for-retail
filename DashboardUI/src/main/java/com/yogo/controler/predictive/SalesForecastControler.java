@@ -13,4 +13,17 @@ public class SalesForecastControler {
 
     @FXML
     private DatePicker datePicker;
+
+    @FXML
+    private VBox dayMonthWeek;
+
+    @FXML
+    private DatePicker datePicker1;
+
+    @FXML
+    private VBox monthMonthWeek;
+
+    @FXML
+    private DatePicker datePicker2;
+
 }

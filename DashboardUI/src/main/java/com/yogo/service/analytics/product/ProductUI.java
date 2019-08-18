@@ -15,6 +15,7 @@ import javafx.scene.layout.VBox;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -24,6 +25,7 @@ import java.util.stream.Collectors;
 public class ProductUI {
 
     private static VBox productScene;
+    private static  boolean currentScene;
 
 
     private static BlockingQueue<List<CatergoryValue>> topCategories=new LinkedBlockingQueue<>();
@@ -42,7 +44,7 @@ public class ProductUI {
 
     private static void createService() {
         Runnable runnable=()->{
-            if (!topCategories.isEmpty()) {
+            if (isCurrentScene() && !topCategories.isEmpty()) {
                 List<CatergoryValue> categoryValues = topCategories.poll();
                 Platform.runLater(() -> {
                     pieChartSeries.clear();
@@ -71,7 +73,7 @@ public class ProductUI {
     }
     public static void createService2(){
         Runnable runnable=()->{
-          if(!productCounts.isEmpty()){
+          if(isCurrentScene() && !productCounts.isEmpty()){
               ProductCounts counts=productCounts.poll();
                       List<ResentProductItem> items=counts.getResentItems()
                       .stream()
@@ -93,12 +95,18 @@ public class ProductUI {
     }
     private static void createService3(){
         Runnable runnable=()->{
-            if(!doubleStats.isEmpty()){
+            if(isCurrentScene() && !doubleStats.isEmpty() ){
                 int sec=LocalTime.now().getSecond();
                 DoubleStats summary=doubleStats.poll();
                 Platform.runLater(()->{
+
+                    revenue.getData().removeAll(removeSeconds(revenue,sec));
                     revenue.getData().add(new XYChart.Data<>(sec,summary.getSum()));
+
+                    salesCount.getData().removeAll(removeSeconds(salesCount,sec));
                     salesCount.getData().add(new XYChart.Data<>(sec,summary.getCount()));
+
+                    salesAvg.getData().removeAll(removeSeconds(salesAvg,sec));
                     salesAvg.getData().add(new XYChart.Data<>(sec,summary.getAverage()));
                 });
 
@@ -107,7 +115,26 @@ public class ProductUI {
 
 
         };
-        ExecutorPool.getScheduledExecutorService().scheduleAtFixedRate(runnable,60,15,TimeUnit.SECONDS);
+        Runnable runnable1=()->{
+            if(isCurrentScene()) {
+                Platform.runLater(() -> {
+
+                    revenue.getData().clear();
+                    salesAvg.getData().clear();
+                    salesCount.getData().clear();
+                });
+            }
+        };
+        ExecutorPool.getScheduledExecutorService().scheduleAtFixedRate(runnable,15,15,TimeUnit.SECONDS);
+        ExecutorPool.getScheduledExecutorService()
+                .scheduleAtFixedRate(runnable1,1,1,TimeUnit.MINUTES);
+    }
+
+    private static Collection<?> removeSeconds(XYChart.Series<Number, Number> data, int sec) {
+        List<XYChart.Data<Number,Number>>remove=data.getData().stream()
+                .filter(e-> e.getXValue().intValue()>sec)
+                .collect(Collectors.toList());
+        return remove;
     }
 
     public static XYChart.Series<Number, Number> getSalesAvg() {
@@ -168,4 +195,11 @@ public class ProductUI {
         return resentItems;
     }
 
+    public static boolean isCurrentScene() {
+        return currentScene;
+    }
+
+    public static void setCurrentScene(boolean currentScene) {
+        ProductUI.currentScene = currentScene;
+    }
 }

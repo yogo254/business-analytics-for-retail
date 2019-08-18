@@ -4,20 +4,15 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.yogo.domain.customer.CustomerRow;
 import com.yogo.domain.products.ResentProductItem;
 import com.yogo.service.analytics.customer.CustomerUI;
-import com.yogo.service.analytics.predictive.FeaturesCase;
 import com.yogo.service.analytics.predictive.SalesForeCastUI;
-import com.yogo.service.analytics.predictive.SalesForecast;
-import com.yogo.service.analytics.product.ProductAnalytics;
 import com.yogo.service.analytics.product.ProductUI;
 import com.yogo.service.ui.dashboard.DashboardUI;
 import com.yogo.util.ExecutorPool;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Side;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.chart.*;
@@ -26,8 +21,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import org.springframework.beans.factory.FactoryBean;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -37,8 +30,6 @@ import org.springframework.web.client.RestTemplate;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 @SpringBootApplication
 
@@ -47,10 +38,11 @@ public class Main extends Application {
     private static final String basepath="src/main/resources/fxml";
     private ExecutorService executorService= ExecutorPool.getExecutor();
     private static ConfigurableApplicationContext context;
+   private Service<ConfigurableApplicationContext>bootContext;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Service<ConfigurableApplicationContext>bootContext=createBootContext();
+        bootContext=createBootContext();
         bootContext.setOnSucceeded(e->{
             context=bootContext.getValue();
             primaryStage.setScene(DashboardUI.getDashboard());
@@ -100,8 +92,11 @@ public class Main extends Application {
 
         NumberAxis hourDayY=new NumberAxis();
         hourDayY.setAutoRanging(true);
+        hourDayY.setLowerBound(100);
+
         hourDayY.setLabel("Mean Sales");
-        NumberAxis hourDayX=new NumberAxis(0,23,1);
+        CategoryAxis hourDayX=new CategoryAxis();
+
         hourDayX.setLabel("Hour of Day");
         StackedAreaChart hourDayChart=new StackedAreaChart(hourDayX,hourDayY);
         hourDayChart.setAnimated(true);
@@ -113,8 +108,34 @@ public class Main extends Application {
 
         hourDay.getChildren().add(1,hourDayChart);
 
+        VBox dayMonthWeek= (VBox) box.lookup("#dayMonthWeek");
+        DatePicker datePicker1= (DatePicker) box.lookup("#datePicker1");
+        datePicker1.valueProperty()
+                .addListener((observableValue, oldVal, newVal) ->SalesForeCastUI.updatedayMonthWeek(newVal) );
+        NumberAxis dayMonthWeekY=new NumberAxis();
+        dayMonthWeekY.setAutoRanging(true);
+        dayMonthWeekY.setLabel("Mean Sales");
+        CategoryAxis categoryAxis=new CategoryAxis();
+        categoryAxis.setLabel("Day of Week");
+
+        BarChart<String,Number> barChart=new BarChart<>(categoryAxis,dayMonthWeekY);
+        barChart.getData().add(SalesForeCastUI.getDaymonthWeek());
+        barChart.setAnimated(true);
 
 
+
+        dayMonthWeek.getChildren().add(1,barChart);
+
+        VBox monthMonthWeek= (VBox) box.lookup("#monthMonthWeek");
+        DatePicker datePicker2= (DatePicker) box.lookup("#datePicker2");
+        datePicker2.valueProperty()
+                .addListener((observableValue, oldVal,newVal) ->SalesForeCastUI.updatemonthMonthday(newVal) );
+        CategoryAxis categoryAxis1=new CategoryAxis();
+        categoryAxis1.setLabel("Day of Month");
+        StackedAreaChart<String,Number>stackedAreaChart=new StackedAreaChart<>(categoryAxis1,hourDayY);
+        stackedAreaChart.setAnimated(true);
+        stackedAreaChart.getData().add(SalesForeCastUI.getMonthMonthWeek());
+        monthMonthWeek.getChildren().add(1,stackedAreaChart);
 
 
 
@@ -136,9 +157,29 @@ public class Main extends Application {
         VBox resentTablePane= (VBox) box.lookup("#resentTablePane");
 
         TableView topCustomers=createCustomerTable();
+        topCustomers.setItems(CustomerUI.getTopCustomers());
         TableView resentCustomers=createCustomerTable();
+        resentCustomers.setItems(CustomerUI.getResentCustomers());
         topTablePane.getChildren().add(topCustomers);
+
         resentTablePane.getChildren().add(resentCustomers);
+
+        HBox areaChartPane= (HBox) box.lookup("#areaChartPane");
+        NumberAxis numberAxis=new NumberAxis();
+        numberAxis.setAutoRanging(true);
+        numberAxis.setLabel("Sales value");
+        NumberAxis time=new NumberAxis(0,60,1);
+        time.setMinorTickCount(1000);
+        time.setLabel("TimeStamp");
+
+        StackedAreaChart<Number,Number>stackedAreaChart=new StackedAreaChart<>(time,numberAxis);
+        stackedAreaChart.setAnimated(true);
+        stackedAreaChart.setPrefSize(1000,250);
+        stackedAreaChart.setData(CustomerUI.getChartData());
+        areaChartPane.getChildren().add(stackedAreaChart);
+
+
+
 
 
         return box;
@@ -267,8 +308,7 @@ public class Main extends Application {
         bootContext.start();
         return bootContext;
     }
-
-
+    
     public static void main(final String[] args) {
         SalesForeCastUI.setSaleForecastScene(createSalesForecastScene());
         CustomerUI.setCustomerScene(createCustomerScene());
@@ -306,10 +346,16 @@ public class Main extends Application {
 
         treeView.getSelectionModel().selectedItemProperty()
                 .addListener((observableValue, oldVal, newVal) -> {
-                    if(newVal.equals(des_Product))
+                    if(newVal.equals(des_Product)) {
                         DashboardUI.switchDashboard(ProductUI.getProductScene());
-                    else if (newVal.equals(desc_customer))
+                        ProductUI.setCurrentScene(true);
+                        CustomerUI.setCurrentScene(false);
+                    }
+                    else if (newVal.equals(desc_customer)) {
                         DashboardUI.switchDashboard(CustomerUI.getCustomerScene());
+                        CustomerUI.setCurrentScene(true);
+                        ProductUI.setCurrentScene(false);
+                    }
                     else if(newVal.equals(salesForecast))
                         DashboardUI.switchDashboard(SalesForeCastUI.getSaleForecastScene());
 
@@ -330,11 +376,14 @@ public class Main extends Application {
     }
     @Override
     public void stop() throws Exception {
-        if(!context.equals(null))
-        context.stop();
+        if(!context.equals(null)) {
+            context.stop();
+            context.close();
+        }
+        bootContext.cancel();
         ExecutorPool.getScheduledExecutorService().shutdown();
         ExecutorPool.getExecutor().shutdown();
-        Platform.exit();
+        super.stop();
     }
 
 

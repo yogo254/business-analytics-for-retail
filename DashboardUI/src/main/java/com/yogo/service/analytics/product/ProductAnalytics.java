@@ -17,14 +17,7 @@ public class ProductAnalytics {
     @Autowired
     private ObjectMapper mapper;
 
-    public ProductAnalytics() {
-        monitor();
-    }
 
-    private void monitor() {
-
-
-    }
 
     @KafkaListener(topics = "products")
 public void receive(String message){

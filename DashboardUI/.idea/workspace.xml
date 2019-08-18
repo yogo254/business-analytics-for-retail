@@ -2,34 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashboardUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/component/ComponentUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerDashboardControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/controler/predictive/SalesForecastControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/controler/predictive/SalesForecastControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/service/ui/dashboard/DashboardUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/service/ui/dashboard/DashboardUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForeCastUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForeCastUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yogo/util/DoubleStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yogo/util/DoubleStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/customer/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/customer/customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/customer/customerdashboard.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../predictiveanalytics/saletimeseries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveanalytics/src/main/resources/dataset/saletimeseries.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../predictiveanalytics/src/main/java/com/yogo/predictiveanalytics/controler/SalesPredictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveanalytics/src/main/java/com/yogo/predictiveanalytics/controler/SalesPredictions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../predictiveanalytics/src/main/java/com/yogo/predictiveanalytics/models/SalesForecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/../predictiveanalytics/src/main/java/com/yogo/predictiveanalytics/models/SalesForecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/predictive/salesforecast.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/predictive/salesforecast.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/Main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/Main$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/controler/customer/CustomerControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/controler/customer/CustomerControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/controler/predictive/SalesForecastControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/controler/predictive/SalesForecastControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/customer/CustomerAnalytics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/customer/CustomerAnalytics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/customer/CustomerUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/customer/CustomerUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/predictive/SalesForeCastUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/predictive/SalesForeCastUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/predictive/SalesForecast$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/predictive/SalesForecast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/predictive/SalesForecast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/product/ProductAnalytics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yogo/service/analytics/product/ProductAnalytics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/customer/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/customer/customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/predictive/salesforecast.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/predictive/salesforecast.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,12 +106,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+            <state relative-caret-position="1906">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4716#4717#0" expanded="true" />
-                <element signature="e#4749#4750#0" expanded="true" />
+                <element signature="e#5746#5747#0" expanded="true" />
+                <element signature="e#5847#5848#0" expanded="true" />
+                <element signature="e#5942#5943#0" expanded="true" />
+                <element signature="e#6045#6046#0" expanded="true" />
+                <element signature="e#6153#6154#0" expanded="true" />
+                <element signature="e#6602#6603#0" expanded="true" />
+                <element signature="e#6713#6714#0" expanded="true" />
+                <element signature="e#6818#6819#0" expanded="true" />
+                <element signature="e#7059#7060#0" expanded="true" />
+                <element signature="e#7191#7192#0" expanded="true" />
+                <element signature="e#7297#7298#0" expanded="true" />
+                <element signature="e#7378#7379#0" expanded="true" />
+                <element signature="e#7495#7496#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,23 +131,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="478">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForeCastUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#1652#1653#0" expanded="true" />
-                <element signature="e#1682#1683#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,32 +143,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+            <state relative-caret-position="348">
+              <caret line="172" column="35" lean-forward="true" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
               <folding>
-                <element signature="e#11937#11938#0" expanded="true" />
-                <element signature="e#11977#11978#0" expanded="true" />
-                <element signature="e#12083#12084#0" expanded="true" />
-                <element signature="e#12124#12125#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#14206#14207#0" expanded="true" />
+                <element signature="e#14247#14248#0" expanded="true" />
+                <element signature="e#14300#14301#0" expanded="true" />
+                <element signature="e#14341#14342#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/FeaturesCase.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForeCastUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="-298">
+              <caret line="71" column="53" lean-forward="true" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4186#4187#0" expanded="true" />
+                <element signature="e#4223#4224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3929#3930#0" expanded="true" />
+                <element signature="e#4047#4048#0" expanded="true" />
+                <element signature="e#4146#4147#0" expanded="true" />
+                <element signature="e#4246#4247#0" expanded="true" />
+                <element signature="e#4436#4437#0" expanded="true" />
+                <element signature="e#4469#4470#0" expanded="true" />
+                <element signature="e#4426#4427#0" expanded="true" />
+                <element signature="e#4534#4535#0" expanded="true" />
+                <element signature="e#4942#4943#0" expanded="true" />
+                <element signature="e#5056#5057#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForecast.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerStats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="92">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/DoubleStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,31 +234,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/predictive/SalesForecastControler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -213,8 +248,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="378">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -270,27 +305,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/util/ExecutorPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ResentProductItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/product/ProductControler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerCounts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerRow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerControler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/ui/dashboard/DashboardUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForcast.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/predictive/SalesForecastControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/util/AppUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/component/ComponentUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/FeaturesCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/predictive/SalesForecastControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForecast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yogo/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForeCastUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/util/DoubleStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerUI.java" />
       </list>
     </option>
   </component>
@@ -315,9 +352,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="12" />
-    <option name="y" value="18" />
-    <option name="width" value="1326" />
-    <option name="height" value="692" />
+    <option name="y" value="19" />
+    <option name="width" value="1316" />
+    <option name="height" value="685" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -328,8 +365,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,6 +405,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="controler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -381,6 +444,28 @@
               <item name="yogo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="analytics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DashboardUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="predictive" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DashboardUI" type="b2602c69:ProjectViewProjectNode" />
@@ -406,6 +491,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,16 +673,22 @@
       <workItem from="1565522706042" duration="1237000" />
       <workItem from="1565572059606" duration="1708000" />
       <workItem from="1565574398521" duration="3465000" />
+      <workItem from="1565606666026" duration="1330000" />
+      <workItem from="1565610235972" duration="2974000" />
+      <workItem from="1565647946974" duration="10415000" />
+      <workItem from="1565769858037" duration="10800000" />
+      <workItem from="1565782692071" duration="252000" />
+      <workItem from="1565791939224" duration="10044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155665000" />
+    <option name="totallyTimeSpent" value="191480000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="769" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22045454" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21818182" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -606,7 +699,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.79037267" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6761194" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55074626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,18 +717,18 @@
       <window_info anchor="bottom" id="Spring" order="17" />
       <window_info anchor="bottom" id="Java Enterprise" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32954547" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32954547" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32954547" />
-      <window_info anchor="right" id="Mongo Explorer" order="11" weight="0.32954547" />
-      <window_info anchor="right" id="Jms Messenger" order="12" weight="0.32954547" />
+      <window_info anchor="right" id="Jms Messenger" order="11" weight="0.32954547" />
+      <window_info anchor="right" id="Mongo Explorer" order="12" weight="0.32913387" />
       <window_info anchor="right" id="Bean Validation" order="13" />
     </layout>
   </component>
@@ -657,7 +750,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/yogo/Main.java</url>
-          <line>199</line>
+          <line>240</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -669,9 +762,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/sample.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/customer/customerdashboard.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/controler/product/ProductControler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/product/ProductControler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ProductValue.java">
@@ -731,17 +821,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/ui/customer/CustomerUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/ExecutorPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/dashboard/DashboardControler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -753,8 +832,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/dashboard.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/product/ProductControler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -794,80 +873,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/product/product.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerCounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerDashboardControler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/DoubleStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/products/ResentProductItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -891,22 +912,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/predictive/timeseries.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/AppUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/component/ComponentUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/FeaturesCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="756">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForecast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
           <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/predictive/SalesForecastControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="486">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -927,98 +955,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerControler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/AppUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerValues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        <state relative-caret-position="108">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/Lifecycle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/ConfigurableApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/ExecutorPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/component/ComponentUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerCounts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="189">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForecast.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/controler/customer/CustomerControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="378">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/FeaturesCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductAnalytics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="478">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+        <state relative-caret-position="270">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
-            <element signature="e#11937#11938#0" expanded="true" />
-            <element signature="e#11977#11978#0" expanded="true" />
-            <element signature="e#12083#12084#0" expanded="true" />
-            <element signature="e#12124#12125#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/product/ProductUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+        <state relative-caret-position="1906">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4716#4717#0" expanded="true" />
-            <element signature="e#4749#4750#0" expanded="true" />
+            <element signature="e#5746#5747#0" expanded="true" />
+            <element signature="e#5847#5848#0" expanded="true" />
+            <element signature="e#5942#5943#0" expanded="true" />
+            <element signature="e#6045#6046#0" expanded="true" />
+            <element signature="e#6153#6154#0" expanded="true" />
+            <element signature="e#6602#6603#0" expanded="true" />
+            <element signature="e#6713#6714#0" expanded="true" />
+            <element signature="e#6818#6819#0" expanded="true" />
+            <element signature="e#7059#7060#0" expanded="true" />
+            <element signature="e#7191#7192#0" expanded="true" />
+            <element signature="e#7297#7298#0" expanded="true" />
+            <element signature="e#7378#7379#0" expanded="true" />
+            <element signature="e#7495#7496#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/predictive/SalesForeCastUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-298">
+          <caret line="71" column="53" lean-forward="true" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
           <folding>
-            <element signature="e#1652#1653#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4186#4187#0" expanded="true" />
+            <element signature="e#4223#4224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerAnalytics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/domain/customer/CustomerStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/util/DoubleStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="172" column="35" lean-forward="true" selection-start-line="172" selection-start-column="35" selection-end-line="172" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14206#14207#0" expanded="true" />
+            <element signature="e#14247#14248#0" expanded="true" />
+            <element signature="e#14300#14301#0" expanded="true" />
+            <element signature="e#14341#14342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yogo/service/analytics/customer/CustomerUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3929#3930#0" expanded="true" />
+            <element signature="e#4047#4048#0" expanded="true" />
+            <element signature="e#4146#4147#0" expanded="true" />
+            <element signature="e#4246#4247#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
+            <element signature="e#4469#4470#0" expanded="true" />
+            <element signature="e#4426#4427#0" expanded="true" />
+            <element signature="e#4534#4535#0" expanded="true" />
+            <element signature="e#4942#4943#0" expanded="true" />
+            <element signature="e#5056#5057#0" expanded="true" />
           </folding>
         </state>
       </provider>

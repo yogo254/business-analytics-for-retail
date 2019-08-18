@@ -59,4 +59,15 @@ public class DoubleStats {
     public void setSum(double sum) {
         this.sum = sum;
     }
+
+    @Override
+    public String toString() {
+        return "DoubleStats{" +
+                "average=" + average +
+                ", max=" + max +
+                ", min=" + min +
+                ", count=" + count +
+                ", sum=" + sum +
+                '}';
+    }
 }
